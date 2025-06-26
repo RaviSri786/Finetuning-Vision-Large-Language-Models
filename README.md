@@ -8,7 +8,6 @@ This repository contains the code and results of fine-tuning three vision-langua
 - [Models](#models)
 - [Environment Setup](#environment-setup)
 - [Results](#results)
-- [Files & Structure](#files--structure)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
@@ -132,32 +131,7 @@ The models were trained on a **NVIDIA SXM4 A100** GPU rented from **Vast.ai** at
 
 ---
 
-## 📁 Files & Structure
 
-```
-FineTuning-Vision-Large-Language-Models/
-├── notebooks/
-│   ├── CLIP_finetuning.ipynb
-│   ├── BLIP_finetuning.ipynb
-│   └── LLaMA_finetuning.ipynb
-├── data/
-│   └── bird_presence_classification.csv
-├── models/
-│   ├── clip_model.pth
-│   ├── blip_model.pth
-│   └── llama_model.pth
-├── results/
-│   ├── evaluation_metrics.csv
-│   └── test_predictions.csv
-└── README.md
-```
-
-- **`notebooks/`**: Contains Jupyter notebooks for fine-tuning and evaluation.
-- **`data/`**: Includes the raw dataset files.
-- **`models/`**: Saves the fine-tuned model checkpoints.
-- **`results/`**: Stores evaluation metrics and prediction outputs.
-
----
 
 ## 👩‍💻 Contributing
 
